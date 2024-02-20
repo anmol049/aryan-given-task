@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    justify-content: center;
+}
+.containor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid black;
+    gap: 10px;
+
+}
+.news-card{
+    border: 1px solid green;
+    text-align: center;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: pink;
+}
+.nav-bar button{
+    padding: 7px 7px;
+    border-radius: 10px;
+}

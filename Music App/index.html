@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containor">
+        <h1 style="text-align: center; background-color: lightblue; color: white;">Music App</h1>
+        <input type="text" id="input" placeholder="enter the music that you want to search" style="width: 100%; padding: 6px 0px;">
+        <br><br>
+        <button style="background-color:lightblue; padding: 3px 3px;" onclick="fetchapi()">Search</button>
+    </div>
+    <br>
+    <div class="bottom-containor" id="bottom-containor">
+    </div>
+    <template id="temp">
+        <div class="music-card" id="music-card">
+            <img src="" alt="" id="img">
+            <h3 id="title"></h3>
+            <p id="desc"></p>
+            <audio src="" id="audio" type="audio/mp4" controls></audio >
+            <button id="play-button" class="play-button">play</button>
+
+        </div>
+    </template>
+    <script src="script.js"></script>
+</body>
+</html>

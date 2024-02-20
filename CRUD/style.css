@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+table,td,th{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.containor{
+    margin-top: 50px;
+    border: 1px solid white;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+.containor label{
+    /* border: 1px solid white; */
+    font-size: 40px;
+    /* width: 300px; */
+}
+.containor input{
+    padding: 15px 40px 5px 40px;
+    width: 500px;
+}
+#add-button{
+    padding: 10px 25px;
+    background-color:#0d6efd;
+    border-radius: 10px;
+}
+#update-button{
+    padding: 10px 25px;
+    background-color: #0dcaf0;
+    border-radius:10px ;
+}
+.table-containor{
+    border: 1px solid white;
+    /* width: 400px; */
+    display: flex;
+    justify-content: center;
+}
+.table-containor table{
+    width: 900px;
+}
